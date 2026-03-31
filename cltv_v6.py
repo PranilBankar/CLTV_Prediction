@@ -695,8 +695,8 @@ plt.close()
 
 # ─── SUBMISSION ───────────────────────────────────────────────────────────────
 submission = pd.DataFrame({"id": test["id"], "cltv": pred_final.astype(int)})
-submission.to_csv("submission_v6.csv", index=False)
-print(f"\n[Saved] submission_v6.csv  ({len(submission)} rows)")
+submission.to_csv("submission_v8.csv", index=False)
+print(f"\n[Saved] submission_v8.csv  ({len(submission)} rows)")
 print(submission.head(10).to_string(index=False))
 
 # ─── FINAL SUMMARY ────────────────────────────────────────────────────────────
@@ -720,5 +720,5 @@ print(f"  ═══════════════════════�
 print(f"  FINAL → {best_name}  R²={best_final_r2:.5f}")
 print(f"  Wall time : {elapsed:.1f} min")
 print("=" * 65)
-print("  submission_v6.csv ready  ✓")
+print("  submission_v8.csv ready  ✓")
 print("=" * 65)

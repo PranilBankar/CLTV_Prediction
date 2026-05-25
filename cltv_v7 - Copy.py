@@ -16,7 +16,7 @@ ROOT CAUSE DIAGNOSIS:
   stacking resolves that. When models agree (ρ=0.994), stacking does nothing.
 
 WHAT'S NEW IN v6:
-─────────────────────────────────────────────────────────────────────────────//
+─────────────────────────────────────────────────────────────────────────────
 1. FEATURE REDUCTION: ~21 features (down from ~95)
    Removed all polynomial, z-score, group-aggregate features that had no
    measurable CV impact. Fewer features = less noise for CatBoost's ordered

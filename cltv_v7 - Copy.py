@@ -8,7 +8,7 @@ WHY v5 PLATEAUED AT 0.1613:
   • XGBoost DART: 1 hr, R²=0.09  →  dropped
   • All 5+ models were 0.994 correlated → stacking gained nothing
   • depth=9 CatBoost was stopping at iter ~215-357/3000: overfit signal
-
+//
 ROOT CAUSE DIAGNOSIS:
   With 11 raw features, the true max R² (20 claim buckets × all cats) is
   ~0.367. We're at 0.16. The gap is not hyperparameters or complexity —

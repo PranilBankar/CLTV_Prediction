@@ -15,7 +15,7 @@ WHAT'S NEW vs v4:
    Gradient boosters reduce bias but can be unstable on high-variance targets.
    ExtraTrees reduces variance through extreme randomization (random split
    thresholds). Ridge stacking learns to lean on this when GBMs overfit.
-
+//
 3. SMARTER TARGET ENCODING (Bayesian Prior Smoothing)
    Standard mean-encoding on rare category combos is noisy — a group with
    only 2 rows has an unreliable mean. Bayesian smoothing blends each group's
